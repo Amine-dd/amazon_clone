@@ -16,3 +16,7 @@
 1.npm i react-router-dom
 2.create route for home screen
 3.create router fpr product screen
+
+10.Add bootstrap UI framework
+1.npm install react-bootstrap bootstrap
+2.update App.js
