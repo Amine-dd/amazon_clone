@@ -12,10 +12,19 @@ body {
 main {
   flex: 1;
 }
+
+.btn-primary {
+  background-color: #ffc000;
+  color: black;
+}
+
 .products {
   display: flex;
   flex: wrap;
   justify-content: center;
+}
+.rating span {
+  color: #ffc000;
 }
 
 .product {
