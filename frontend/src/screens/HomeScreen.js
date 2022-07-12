@@ -3,6 +3,8 @@ import axios from 'axios';
 import logger from 'use-reducer-logger';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../Components/Product';
+import { Helmet } from 'react-helmet-async';
+
 const reducer = (state, action) => {
   switch (action.type) {
     case 'FETCH_REQUEST':
@@ -21,6 +23,7 @@ function HomeScreen() {
     loading: true,
     error: '',
   });
+
   useEffect(() => {
     const fetchData = async () => {
       dispatch({ type: 'FETCH_REQUEST' });
@@ -35,6 +38,9 @@ function HomeScreen() {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Amazon Clone</title>
+      </Helmet>
       <h1>Featured products</h1>
       <div className="products">
         {loading ? (
