@@ -120,5 +120,5 @@ function ProductScreen() {
     </div>
   );
 }
-
+//updated product screen to display all product's infos
 export default ProductScreen;
