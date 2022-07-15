@@ -21,18 +21,24 @@
 2. update App.js
 
 3. Create Prouct Details screen
+
    1. fetch product from backend
    2. create 3 columns for image, info and action
 
-13.Create Loading and Message component
+   13.Create Loading and Message component
 
-1.  Create loading component
-2.  use spinner component
-3.  create message component
-4.  create utils.js to define getError function
+4. Create loading component
+5. use spinner component
+6. create message component
+7. create utils.js to define getError function
 
-5.  Implement Add To Cart
-6.  Create React Context
-7.  define reducer
-8.  create store provider
-9.  implement add to cart button click handler
+8. Implement Add To Cart
+9. Create React Context
+10. define reducer
+11. create store provider
+12. implement add to cart button click handler
+
+13. Create Cart Screen
+14. create 2 columns
+15. display items list
+16. create action column
