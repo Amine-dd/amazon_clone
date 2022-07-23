@@ -25,7 +25,7 @@
    1. fetch product from backend
    2. create 3 columns for image, info and action
 
-   13.Create Loading and Message component
+      13.Create Loading and Message component
 
 4. Create loading component
 5. use spinner component
@@ -42,3 +42,8 @@
 14. create 2 columns
 15. display items list
 16. create action column
+
+17. Complete Cart Screen
+18. click handler for inc/dec item
+19. click handler for remove item
+20. click handler for checkout
