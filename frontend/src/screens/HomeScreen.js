@@ -2,10 +2,10 @@ import { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
 import { Row, Col } from 'react-bootstrap';
-import Product from '../Components/Product';
+import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
-import LoadingBox from '../Components/LoadingBox';
-import MessageBox from '../Components/MessageBox';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 const reducer = (state, action) => {
   switch (action.type) {
