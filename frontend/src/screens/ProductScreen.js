@@ -127,7 +127,7 @@ function ProductScreen() {
                       )}
                     </Col>
                   </Row>
-                  {product.countInStock > 0 && (
+                  {product.countInStock > state.quantity && (
                     <ListGroup.Item>
                       <div className="d-grid">
                         <Button onClick={addToCartHandler} variant="primary">

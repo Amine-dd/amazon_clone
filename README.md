@@ -73,3 +73,7 @@
 26. create form inputs
 27. handle save shipping address
 28. add checkout wizard bar
+
+29. Implement Select Payement Method Screen
+30. Create input forms
+31. handle submit
