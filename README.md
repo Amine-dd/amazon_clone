@@ -82,3 +82,14 @@
 33. show cart itemsk, payment and adress
 34. handle place order action
 35. create order create api
+
+36. Pay order by PayPal
+37. generate paypal client id
+38. create api to return client id
+39. install react-paypal-js
+40. use PayPalScriptProvider in index.js
+41. use usePayPalScriptReducer in Order Screen
+42. implement loadPayPalScript function
+43. render paypal button
+44. implement onApprove payment function
+45. create pay order api in backend
