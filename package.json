@@ -4,7 +4,7 @@
   "description": "whatever",
   "main": "index.js",
   "scripts": {
-    "build": "cd backend && npm install --force  && cd ../frontend && npm install --force && npm run build --force",
+    "build": "cd backend && npm install --force  && cd ../frontend && npm install --force && npm run build",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
