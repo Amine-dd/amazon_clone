@@ -1,0 +1,21 @@
+{
+  "name": "amazon_clone",
+  "version": "1.0.0",
+  "description": "1. Introduction 2. Install Tools 3. Create React App 4. create Git Repository",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amine-dd/amazon_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amine-dd/amazon_clone/issues"
+  },
+  "homepage": "https://github.com/Amine-dd/amazon_clone#readme"
+}

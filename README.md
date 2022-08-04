@@ -98,3 +98,12 @@
 47. Create order screen
 48. create order history api
 49. use api in frontend
+
+50. Publish to Heroku
+51. Create and config node project
+52. serve build folder in frontend folder
+53. Create heroku account
+54. connect it to github
+55. create mongodb Atlas database
+56. set database connection in heroku env variables
+57. Comit and push
