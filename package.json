@@ -4,7 +4,7 @@
   "description": "1. Introduction 2. Install Tools 3. Create React App 4. create Git Repository",
   "main": "index.js",
   "scripts": {
-    "build": "cd backend && npm install --force  && cd ../frontend && npm install--force && npm run build",
+    "build": "cd backend && npm install --force  && cd ../frontend && npm install --force && npm run build --force",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
