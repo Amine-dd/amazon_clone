@@ -4,8 +4,8 @@ import logger from 'use-reducer-logger';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../components/Product.js';
 import { Helmet } from 'react-helmet-async';
-import LoadingBox from '../components/LoadingBox';
-import MessageBox from '../components/MessageBox';
+import LoadingBox from '../components/LoadingBox.js';
+import MessageBox from '../components/MessageBox.js';
 
 const reducer = (state, action) => {
   switch (action.type) {

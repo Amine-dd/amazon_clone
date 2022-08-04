@@ -11,9 +11,9 @@ import {
 } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import { useNavigate, useParams } from 'react-router-dom';
-import LoadingBox from '../components/LoadingBox';
-import MessageBox from '../components/MessageBox';
-import Rating from '../components/Rating';
+import LoadingBox from '../components/LoadingBox.js';
+import MessageBox from '../components/MessageBox.js';
+import Rating from '../components/Rating.js';
 import { Store } from '../Store';
 import { getError } from '../utils';
 

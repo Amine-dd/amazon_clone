@@ -4,8 +4,8 @@ import { Button, Card, Col, ListGroup, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import CheckoutSteps from '../components/CheckoutSteps';
-import LoadingBox from '../components/LoadingBox';
+import CheckoutSteps from '../components/CheckoutSteps.js';
+import LoadingBox from '../components/LoadingBox.js';
 import { Store } from '../Store';
 import { getError } from '../utils';
 

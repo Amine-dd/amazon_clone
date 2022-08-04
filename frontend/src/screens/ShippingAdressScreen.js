@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import Button from 'react-bootstrap/Button';
 import { Store } from '../Store';
 import { useNavigate } from 'react-router-dom';
-import CheckoutSteps from '../components/CheckoutSteps';
+import CheckoutSteps from '../components/CheckoutSteps.js';
 export default function ShippingAdressScreen() {
   const navigate = useNavigate();
   const { state, dispatch: ctxDispatch } = useContext(Store);
