@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useContext, useReducer, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
-import { toast } from 'react-toastify';
+import { toast, ToastClassName } from 'react-toastify';
 import { Store } from '../Store';
 import { getError } from '../utils';
 
