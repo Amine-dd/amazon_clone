@@ -8,16 +8,20 @@ import reportWebVitals from './reportWebVitals';
 import { StoreProvider } from './Store';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
+
 root.render(
-  <React.StrictMode>
-    <StoreProvider>
-      <HelmetProvider>
-        <PayPalScriptProvider deferLoading={true}>
-          <App />
-        </PayPalScriptProvider>
-      </HelmetProvider>
-    </StoreProvider>
-  </React.StrictMode>
+  <CaseSensitivePathsPlugin>
+    <React.StrictMode>
+      <StoreProvider>
+        <HelmetProvider>
+          <PayPalScriptProvider deferLoading={true}>
+            <App />
+          </PayPalScriptProvider>
+        </HelmetProvider>
+      </StoreProvider>
+    </React.StrictMode>
+  </CaseSensitivePathsPlugin>
 );
 
 // If you want to start measuring performance in your app, pass a function
