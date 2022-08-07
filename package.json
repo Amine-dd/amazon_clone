@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Amine-dd/amazon_clone/issues"
   },
-  "homepage": "https://github.com/Amine-dd/amazon_clone#readme"
+  "homepage": "https://github.com/Amine-dd/amazon_clone#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
 }
